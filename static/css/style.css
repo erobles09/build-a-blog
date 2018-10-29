@@ -1,0 +1,8 @@
+.div-with-bg {
+    background: url(/static/images/cliff.jpg) no-repeat;
+    background-size: cover;
+}
+
+.body_color {
+    color: blue;
+}

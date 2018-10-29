@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html class="no-js">
+
+
+  <head>
+    <meta charset="UTF-8">
+    <title>{{title}}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/static/css/style.css" />
+
+  </head>
+  <body>
+
+    <div class="form-wrapper" align="center">
+
+      <nav class="header">
+        <h1 class="title"><a href="/blog">The Daily Blog</a></h1>
+        <a href="/post" class="pure-button">New Post</a>
+        <a href="/blog?sort=oldest" class="pure-button">Oldest</a>
+        <a href="/blog?sort=newest" class="pure-button">Newest</a>
+
+      </nav>
+      {% block content %}
+      {% endblock %}
+
+    </div>
+
+  </body>
+</html>
